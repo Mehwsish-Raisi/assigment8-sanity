@@ -33,9 +33,7 @@ const Navbar = () => {
               <li className="hover:text-orange-900">
                 <Link href="/Contact">Contact</Link>
               </li>
-              <li className="hover:text-orange-900">
-                <Link  href="#cards">Blogs</Link>
-              </li>
+             
             </ul>
             
           </nav>
@@ -59,14 +57,12 @@ const Navbar = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="hover:text-orange-900">
-                <Link href="#about">About</Link>
+                <Link href="/About">About</Link>
               </li>
               <li className="hover:text-orange-900">
-                <Link href="#contact">Contact</Link>
+                <Link href="/Contact">Contact</Link>
               </li>
-              <li className="hover:text-orange-900">
-                <Link href="#blogs">Blogs</Link>
-              </li>
+              
             </ul>
           </nav>
                   </SheetDescription>
