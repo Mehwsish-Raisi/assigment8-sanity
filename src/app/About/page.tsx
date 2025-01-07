@@ -23,7 +23,7 @@ const AboutPage = () => {
       I am a front-end developer specializing in crafting engaging, responsive, and accessible user interfaces. I work primarily with HTML, CSS, JavaScript, and frameworks like Next.js and React to build dynamic, visually appealing web applications. My focus is on creating seamless user experiences that not only look great but also provide intuitive functionality across devices.
       </p>
       <div className="flex rounded-lg bg-red-400 justify-center">
-      <Link href='/Blog'> <Button className=" hover:bg-red-500  text-white text-xl font-medium bg-transparent py-6  border-black  ">Explore My Blogs</Button> </Link>
+      <Link href='#cards'> <Button className=" hover:bg-red-500  text-white text-xl font-medium bg-transparent py-6  border-black  ">Explore My Blogs</Button> </Link>
         
       </div>
     </div>
