@@ -1,8 +1,10 @@
 
-import Cards from '@/components/Cards'
+import Cards from '@/components/Cards/Cards'
 import HeroPage from '@/components/Hero'
 import { client } from '@/sanity/lib/client'
 import React from 'react'
+ 
+export const revalidate = 10;
 
 const HomePage = async () => {
   const query = `* [_type == 'blog']  | order(_updatedAt asc) {

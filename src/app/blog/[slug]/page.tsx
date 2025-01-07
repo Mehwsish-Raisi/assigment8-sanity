@@ -4,6 +4,8 @@ import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import { PortableText } from "next-sanity";
 
+export const revalidate = 10;
+
 const  BlogPage = async ({params:{slug}}:{params:{slug:string}}) => {
 
 const query = `* [_type == 'blog'  && slug.current == "${slug}"] {

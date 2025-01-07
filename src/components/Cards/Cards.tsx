@@ -5,10 +5,10 @@ import { urlFor } from '@/sanity/lib/image'
 
 const Cards = ({data}:{data:Blog}) => {
   return (
-    <div>
-      <div className="px-4 sm:px-8 md:px-12 lg:px-20 pt-6">
+    <div id="cards">
+      <div className="px-4 sm:px-8 md:px-12 lg:px-20 py-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Card 1 start */}
+          
           <div className="w-full md:w-[380px]">
             <Image
               src={urlFor(data.image).url()}
@@ -30,7 +30,7 @@ const Cards = ({data}:{data:Blog}) => {
             </Link>
             </div>
           </div>
-          {/* Card 1 end */}
+          
           </div>
           </div>
     </div>

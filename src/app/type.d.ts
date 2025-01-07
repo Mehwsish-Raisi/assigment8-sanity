@@ -1,7 +1,7 @@
 type Blog = {
     Title: string,
     Description: string,
-    image: any,
+    image: string,
     slug: string,
     block: string
 }
